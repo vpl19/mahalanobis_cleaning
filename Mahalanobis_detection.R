@@ -7,7 +7,6 @@
 rm(list = ls())
 
 library(rrcov)
-library(MASS)  # only for simulating the data
 
 
 mahalanobis_plot=function(var1,var2,level=(1-pnorm(6))*2){     # default level is equivalent to being 6 sd away from the mean for normal distribution

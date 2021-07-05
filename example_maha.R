@@ -1,4 +1,4 @@
-
+library(MASS)  #  for simulating the data
 
 # Example on simulated data
 
@@ -28,7 +28,7 @@ bvn1<-rbind(bvn1,mvrnorm(100, mu = mu, Sigma = sigma ))
 var1<-bvn1[,1]
 var2<-bvn1[,2]
 
-res<-mahalanobis_plot(var1,var2)
+res<-mahalanobis_plot(var1,var2) # from Mahalanonis_detection.R
 res[[1]]
 length(res[[2]])
 

@@ -1,4 +1,4 @@
-# Victor Lhoste
+# NCD-RisC
 # Example of use of maha_clean function
 # July 2021
 

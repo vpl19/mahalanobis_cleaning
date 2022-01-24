@@ -1,4 +1,4 @@
-# Victor Lhoste
+# NCD-RisC
 # Mahalanobis outlier detection 
 # July 2021
 
